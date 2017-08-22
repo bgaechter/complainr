@@ -1,0 +1,7 @@
+<p>Print this code and give it to your neighbours in case they want to complain about your noisy party </p>
+<div id="qrcode"></div>
+<p>Make sure they know what a QR Code is an how to use it!</p>
+<p>{{qrcode}}</p>
+<script type="text/javascript">
+new QRCode(document.getElementById("qrcode"), "http://localhost/complain/{{qrcode}}");
+</script>
